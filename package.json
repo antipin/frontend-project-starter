@@ -9,9 +9,20 @@
     "build": "webpack --config scripts/build/webpack.prod.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "dependencies": {
+    "modern-normalize": "3.0.1",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
   "devDependencies": {
+    "@types/react": "^19.1.13",
+    "@types/react-dom": "^19.1.9",
+    "autoprefixer": "10.4.21",
     "css-loader": "^7.1.2",
     "html-webpack-plugin": "^5.6.4",
+    "mini-css-extract-plugin": "2.9.4",
+    "postcss": "8.5.6",
+    "postcss-loader": "8.2.0",
     "style-loader": "^4.0.0",
     "ts-loader": "^9.5.4",
     "typescript": "^5.9.2",
