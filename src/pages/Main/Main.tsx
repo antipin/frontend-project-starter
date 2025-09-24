@@ -1,5 +1,5 @@
-import { Root } from '../../components/Root';
-import { Header } from '../../components/Header';
+import { Root } from '@/components/Root';
+import { Header } from '@/components/Header';
 
 export const Main = () => {
   return (

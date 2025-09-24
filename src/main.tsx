@@ -1,5 +1,5 @@
 import { createRoot } from 'react-dom/client';
-import { Main } from './pages/Main';
+import { Main } from '@/pages/Main';
 
 const container = document.querySelector('main');
 if (!container) {
