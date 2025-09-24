@@ -1,0 +1,29 @@
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.Header__left {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.Header__logo {
+  display: flex;
+  align-items: center;
+}
+
+.Header__title {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.Header__right {
+  display: flex;
+  align-items: center;
+}
